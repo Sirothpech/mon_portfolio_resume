@@ -20,7 +20,7 @@ Mon portfolio en ligne est conçu pour présenter mes compétences en développe
 
 ## Utilisation
 
-Vous pouvez accéder à mon portfolio en ligne en suivant ce lien : [Portfolio de Christophe NGAN](lien_vers_votre_portfolio)
+Vous pouvez accéder à mon portfolio en ligne en suivant ce lien : [Portfolio de Christophe NGAN](https://tiny-puffpuff-208c99.netlify.app/)
 
 ## Auteur
 
