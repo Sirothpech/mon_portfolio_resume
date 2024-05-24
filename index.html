@@ -155,16 +155,16 @@
 
     <section id="contact" class="contact">
         <h2 class="section-title">Me <span>Contacter</span></h2>
-        <form action="mailto:christophe.ngan@gmail.com" method="post" enctype="text/plain">
+        <form name="contact" method="post" data-netlify="true">
             <div class="input-box">
-                <input type="text" placeholder="Nom">
-                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Nom" name="name">
+                <input type="email" placeholder="Email" name="email" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Téléphone">
-                <input type="text" placeholder="Sujet">
+                <input type="number" placeholder="Téléphone" name="phone">
+                <input type="text" placeholder="Sujet" name="subject">
             </div>
-            <textarea placeholder="Message"></textarea>
+            <textarea placeholder="Message" name="message" required></textarea>
             <input type="submit" value="Envoyer" class="btn">
         </form>
     </section>
