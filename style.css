@@ -308,6 +308,7 @@ header.sticky {
 .portfolio-box img {
 	width: 100%;
 	transition: .2s ease-in-out;
+	background-color: transparent;
 }
 
 .portfolio-box:hover img {
