@@ -360,6 +360,11 @@ header.sticky {
 	color: var(--bg2);
 }
 
+.carousel-inner img {
+	height: 400px; /* Hauteur fixe pour uniformiser les images */
+	object-fit: contain; /* Assure un remplissage uniforme du conteneur */
+    }
+
 /* #################### */
 /* Contact */
 /* #################### */

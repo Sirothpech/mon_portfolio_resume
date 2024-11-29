@@ -38,7 +38,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .section-title',{origin: 'top'})
-ScrollReveal().reveal('.home-img, .services-content, .portfolio-box, .contact-form',{origin: 'bottom'})
+ScrollReveal().reveal('.home-img, .services-content, .portfolio-box, .contact-form, .container',{origin: 'bottom'})
 ScrollReveal().reveal('.home-content h1, .about-img',{origin: 'left'})
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'})
 
@@ -53,5 +53,6 @@ const typed = new Typed('.multiple', {
 
 menuIcon.addEventListener('click', burgerActive);
 window.addEventListener('scroll', scrollActive);
+
 
 console.log("Merci 'la minute code' pour ce tuto https://www.youtube.com/watch?v=BY9-dXbX09E")
